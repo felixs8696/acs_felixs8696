@@ -8,6 +8,5 @@ def expFromAdd(a,b):
     >>> expFromAdd(5,5)
     3125
     """
-	return 0
 
 doctest.testmod()
