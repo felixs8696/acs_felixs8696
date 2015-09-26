@@ -8,12 +8,6 @@ def expFromAdd(a,b):
     >>> expFromAdd(5,5)
     3125
     """
-	result = 1
-	for j in range(0, b):
-		temp = 0
-		for j in range(0, a):
-			temp += result
-		result = temp
-	return result
+	return 0
 
 doctest.testmod()
